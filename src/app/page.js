@@ -1,9 +1,11 @@
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-[#F6F5F4]">
+    <div className="min-h-screen bg-[#F6F5F4] overflow-x-hidden">
+    
       {/* Hero Section */}
       <section className="px-6 max-w-6xl mx-auto pt-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -82,6 +84,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+    
 
       {/* Learn Language Section */}
       <section className="px-6 max-w-6xl mx-auto py-24">
